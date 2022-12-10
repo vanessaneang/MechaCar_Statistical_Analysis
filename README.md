@@ -4,18 +4,18 @@
 
 ![linear_regression](https://github.com/vanessaneang/MechaCar_Statistical_Analysis/blob/main/Resources/linear_regression_table.png)
 
-**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
 The variables vehicle_weight, and ground_clearance provided the most non-random amount of variance to mpg values in the dataset, which can be
 see by the R-squared value of 0.7149 and th p-value being significantly small, less than 0.001. Indicating the the model is fairly predictive of the mpg of 
 the MechaCar prototypes. 
 
-**Is the slope of the linear model considered to be zero? Why or why not?
+**Is the slope of the linear model considered to be zero? Why or why not?**
 
 Yes, the slope can be considered zero, since the value is so close to zero and the p-value being less than 0.001 we fail to reject the null hypothesis. This 
 means that vehicle_weight and ground_clearance can help predict the mpg of the MechaCars. 
 
-**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
 This linear model does predict the mpg of MechaCar prototypes effectively because of the R-squared variance being 0.7149 indicating it is a realisitic model 
 with low random amounts of variance.  
@@ -23,7 +23,7 @@ with low random amounts of variance.
 ## Summary Statistics on Suspension Coils
 
 **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
-Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
 By looking at the summary statistics table, if all lots are accounted for all together it looks as if the variance of the suspension coils does not exceed
 100 PSI, the value being 62.29. However, if each lot is accounted for separately the Manufacturing Lot 3 exceeds this limitation by over 70 PSI, with the
